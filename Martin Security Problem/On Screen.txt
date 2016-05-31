@@ -1,0 +1,113 @@
+C:\Users\renzh\Documents\Coding\Python\Martin Security Problem>py Guards.py
+Total facilities: 4
+[(6, '...X..', 'X.X...'), (14, 'XXXXX....X.XX.', 'XX..XXX..X....'), (29, 'XXX...XXXX....XXXXX.....XXXXX', '......XXXXXX.....XXXXX....X.X'), (11, '...XX.X....', 'XX....X....')]
+...X..
+X.X...
+unguarded cell count: 9.
+
+Guarding cell (0, 1), Guard Count: 1
+*G*X..
+X*X...
+unguarded cell count: 5.
+
+Guarding cell (1, 4), Guard Count: 2
+*G*X*.
+X*X*G*
+unguarded cell count: 1.
+
+Guarding cell (0, 5), Guard Count: 3
+*G*X*G
+X*X*G*
+unguarded cell count: 0.
+
+XXXXX....X.XX.
+XX..XXX..X....
+unguarded cell count: 14.
+
+Guarding cell (0, 7), Guard Count: 1
+XXXXX**G*X.XX.
+XX..XXX*.X....
+unguarded cell count: 9.
+
+Guarding cell (1, 10), Guard Count: 2
+XXXXX**G*X*XX.
+XX..XXX*.XG***
+unguarded cell count: 4.
+
+Guarding cell (1, 2), Guard Count: 3
+XXXXX**G*X*XX.
+XXG*XXX*.XG***
+unguarded cell count: 2.
+
+Guarding cell (0, 13), Guard Count: 4
+XXXXX**G*X*XXG
+XXG*XXX*.XG***
+unguarded cell count: 1.
+
+Guarding cell (1, 8), Guard Count: 5
+XXXXX**G*X*XXG
+XXG*XXX*GXG***
+unguarded cell count: 0.
+
+XXX...XXXX....XXXXX.....XXXXX
+......XXXXXX.....XXXXX....X.X
+unguarded cell count: 28.
+
+Guarding cell (1, 3), Guard Count: 1
+XXX*..XXXX....XXXXX.....XXXXX
+***G**XXXXXX.....XXXXX....X.X
+unguarded cell count: 21.
+
+Guarding cell (0, 22), Guard Count: 2
+XXX*..XXXX....XXXXX***G*XXXXX
+***G**XXXXXX.....XXXXX*...X.X
+unguarded cell count: 15.
+
+Guarding cell (1, 13), Guard Count: 3
+XXX*..XXXX...*XXXXX***G*XXXXX
+***G**XXXXXX*G***XXXXX*...X.X
+unguarded cell count: 9.
+
+Guarding cell (0, 11), Guard Count: 4
+XXX*..XXXX*G**XXXXX***G*XXXXX
+***G**XXXXXX*G***XXXXX*...X.X
+unguarded cell count: 6.
+
+Guarding cell (1, 24), Guard Count: 5
+XXX*..XXXX*G**XXXXX***G*XXXXX
+***G**XXXXXX*G***XXXXX**G*X.X
+unguarded cell count: 3.
+
+Guarding cell (0, 4), Guard Count: 6
+XXX*G*XXXX*G**XXXXX***G*XXXXX
+***G**XXXXXX*G***XXXXX**G*X.X
+unguarded cell count: 1.
+
+Guarding cell (1, 27), Guard Count: 7
+XXX*G*XXXX*G**XXXXX***G*XXXXX
+***G**XXXXXX*G***XXXXX**G*XGX
+unguarded cell count: 0.
+
+...XX.X....
+XX....X....
+unguarded cell count: 16.
+
+Guarding cell (1, 5), Guard Count: 1
+...XX*X....
+XX***GX....
+unguarded cell count: 11.
+
+Guarding cell (0, 8), Guard Count: 2
+...XX*X*G**
+XX***GX.*..
+unguarded cell count: 6.
+
+Guarding cell (0, 1), Guard Count: 3
+*G*XX*X*G**
+XX***GX.*..
+unguarded cell count: 3.
+
+Guarding cell (1, 9), Guard Count: 4
+*G*XX*X*G**
+XX***GX**G*
+unguarded cell count: 0.

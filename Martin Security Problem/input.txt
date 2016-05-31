@@ -1,0 +1,13 @@
+4
+6
+...x..
+x.x...
+14
+xxxxx....x.xx.
+xx..xxx..x....
+29
+xxx...xxxx....xxxxx.....xxxxx
+......xxxxxx.....xxxxx....x.x
+11
+...xx.x....
+xx....x....
